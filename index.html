@@ -79,6 +79,7 @@
   ]
 }
 </script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iIzBEMTExNyIvPgogIDxwb2x5Z29uIHBvaW50cz0iMzUsMjIgMzUsNzggODIsNTAiIGZpbGw9IiNGNUU2NDIiLz4KPC9zdmc+">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -227,7 +228,7 @@ footer a:hover{color:rgba(255,255,255,0.7);}
 
     <div class="modal-section">
       <h2>1. Titolare del trattamento</h2>
-      <p>Il titolare del trattamento è il gestore del sito StreamMatch.it. Per qualsiasi richiesta relativa ai tuoi dati personali scrivi a: <a href="mailto:streammatch1@gmail.com">streammatch1@gmail.com</a></p>
+      <p>Il titolare del trattamento è il gestore del sito StreamMatch.it. Per qualsiasi richiesta relativa ai tuoi dati personali scrivi a: <a href="/cdn-cgi/l/email-protection#a8dbdcdacdc9c5c5c9dccbc099e8cfc5c9c1c486cbc7c5"><span class="__cf_email__" data-cfemail="85f6f1f7e0e4e8e8e4f1e6edb4c5e2e8e4ece9abe6eae8">[email&#160;protected]</span></a></p>
     </div>
 
     <div class="modal-section">
@@ -268,7 +269,7 @@ footer a:hover{color:rgba(255,255,255,0.7);}
 
     <div class="modal-section">
       <h2>8. Diritti dell'utente</h2>
-      <p>Hai diritto ad accedere, rettificare, cancellare i tuoi dati e opporti al trattamento (artt. 15-21 GDPR). Puoi proporre reclamo al <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">Garante Privacy</a>. Per esercitare i tuoi diritti scrivi a: <a href="mailto:streammatch1@gmail.com">streammatch1@gmail.com</a></p>
+      <p>Hai diritto ad accedere, rettificare, cancellare i tuoi dati e opporti al trattamento (artt. 15-21 GDPR). Puoi proporre reclamo al <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">Garante Privacy</a>. Per esercitare i tuoi diritti scrivi a: <a href="/cdn-cgi/l/email-protection#f4878086919599999580979cc5b49399959d98da979b99"><span class="__cf_email__" data-cfemail="2251565047434f4f4356414a1362454f434b4e0c414d4f">[email&#160;protected]</span></a></p>
     </div>
 
     <div class="modal-section">
@@ -277,7 +278,7 @@ footer a:hover{color:rgba(255,255,255,0.7);}
     </div>
 
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const questions=[
   {id:"budget",text:"Qual è il tuo budget mensile?",multi:false,options:[
     {value:"low",icon:"💰",label:"Meno di €8",sub:"Solo l'essenziale"},
@@ -468,16 +469,7 @@ function goNext(){
   visibleSteps=getVisible();
   if(visibleSteps.length!==prev){
     var sc=current;buildSteps();
-
-function openprivacy(){
-  var el=document.getElementById("privacy-modal");
-  el.classList.add("open");
-  el.scrollIntoView({behavior:"smooth",block:"start"});
-}
-function closeprivacy(){
-  var el=document.getElementById("privacy-modal");
-  el.classList.remove("open");
-}current=Math.min(sc,visibleSteps.length-1);
+    current=Math.min(sc,visibleSteps.length-1);
   }
   var el=document.getElementById("vstep-"+current);
   if(el)el.classList.add("active");
@@ -612,6 +604,7 @@ function restart(){
   document.getElementById("nav-bar").style.display="flex";
   document.getElementById("progress-wrap").style.display="block";
   buildSteps();
+}
 
 function openprivacy(){
   var el=document.getElementById("privacy-modal");
@@ -621,21 +614,6 @@ function openprivacy(){
 function closeprivacy(){
   var el=document.getElementById("privacy-modal");
   el.classList.remove("open");
-}
-  window.scrollTo({top:0,behavior:"smooth"});
 }
 
 buildSteps();
-
-function openprivacy(){
-  var el=document.getElementById("privacy-modal");
-  el.classList.add("open");
-  el.scrollIntoView({behavior:"smooth",block:"start"});
-}
-function closeprivacy(){
-  var el=document.getElementById("privacy-modal");
-  el.classList.remove("open");
-}
-</script>
-</body>
-</html>
